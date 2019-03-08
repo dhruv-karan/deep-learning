@@ -55,6 +55,10 @@ plt.figure()
 
 
 plt.plot(epochs,loss,'bo',label = 'Training loss')
+plt.plot(epochs,val_loss,'b',label="valuidatio n loos")
+plt.title("TRain VS validation loss")
+plt.legend()
+plt.show()
 
 
 
